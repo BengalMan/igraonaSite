@@ -27,7 +27,7 @@ const FormInput = ({
     return (
         <div className='bg-[#181818] rounded px-1 flex items-center'>
             <input
-                className={`${className} bg-[#181818] lg:w-[30rem] sm:h-14 max-sm:w-80 max-lg:w-96 max-[800px]:w-80 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-[#8D151F]`}
+                className={`${className} bg-[#181818] w-[30rem] h-14 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-[#8D151F]`}
                 type={type || "text"}
                 placeholder={placeholder}
                 name={name}

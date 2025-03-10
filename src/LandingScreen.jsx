@@ -7,7 +7,6 @@ import Slika from './assets/10i.png'
 import Video from './assets/web.mp4'
 import './index.css'
 import { useNavigate } from 'react-router';
-import GoogleMap from './components/maps/GoogleMap';
 
 
 function LandingScreen() {
@@ -23,7 +22,7 @@ function LandingScreen() {
             <div className="igraona h-[120%] w-full bg-[#161616] relative" style={{
                 backgroundImage: `url(${Slika})`,
                 backgroundSize: "cover",
-                backgroundPosition: "right 15px bottom 50px",
+                backgroundPosition: "calc(50%) center",
                 backgroundRepeat: "no-repeat",
             }}>
                 <div className="w-full h-full flex flex-col justify-center items-center text-center gap-6">
@@ -86,8 +85,8 @@ function LandingScreen() {
                 <div className="w-full h-[50%] flex justify-evenly items-center background-gradient">
 
 
-                    <div className='w-[96rem] h-80 bg-green-800 mb-2'>
-                        <GoogleMap />
+                    <div className='w-[90%] h-80 bg-green-800 mb-2'>
+                        Zamisli da je ovo mapa
                     </div>
                 </div>
 
